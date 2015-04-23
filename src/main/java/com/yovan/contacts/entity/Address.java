@@ -17,6 +17,14 @@ public class Address {
 		this.state = state;
 		this.zip = zip;
 	}
+	
+	public Address(String street, String city, String state, String zip) {
+		super();
+		this.street = street;
+		this.city = city;
+		this.state = state;
+		this.zip = zip;
+	}
 
 	public Long getId() {
 		return id;
